@@ -121,3 +121,13 @@ btnNew.addEventListener('click', function () {
   score1El.textContent = totalScore1;
 });
 
+// Screen Size Text Content Changes
+if (window.innerWidth < 743) {
+  btnNew.textContent = '🔄'
+  btnRoll.textContent = '🎲'
+  btnHold.textContent = '📥'
+} else if (window.innerWidth >= 743) {
+  btnNew.textContent = '🔄 New game'
+  btnRoll.textContent = '🎲 Roll dice'
+  btnHold.textContent = '📥 Hold'
+}

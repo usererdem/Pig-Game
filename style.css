@@ -132,7 +132,7 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 2rem;
 }
 .btn--roll {
   top: 39.3rem;
@@ -184,22 +184,44 @@ main {
     height: 100vh;
   }
 
+  .player {
+    padding: 5rem;
+  }
+
   .dice {
    left: 75%;
    top: 50%;
    transform: translateY(-50%);
   }
 
+  .score {
+    font-size: 4rem;
+  }
   .current {
     width: 50%;
   }
 
+  .btn--new {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
   .btn--roll {
-    top: 42rem;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
   }
 
   .btn--hold {
-    top: 48rem;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn:active {
+    transform: translate(-50%, -22px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -213,24 +235,20 @@ main {
     width: 100%;
   }
 
-  .btn {
-    font-size: 1.5rem;
-    width: 60%;
-    left: 33%;
-  }
-
   .btn--new {
-    left: 50%;
-    top: 3rem;
-    transform: translateX(-50%);
+    
+    left: 15%;
+  
   }
 
   .btn--roll {
-    top: 41rem;
+    
+    left: 40%;
+    
   }
 
   .btn--hold {
-    top: 48rem;
+    left: 65%;
   }
 
   .name {
@@ -238,6 +256,9 @@ main {
   }
 
   .dice {
-    left: 66%;
+    left: 80%;
+    width: 6rem;
+    height: 6rem;
+    top: 50%;
    }
 }
