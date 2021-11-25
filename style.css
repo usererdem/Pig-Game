@@ -189,9 +189,9 @@ main {
   }
 
   .dice {
-   left: 75%;
-   top: 50%;
-   transform: translateY(-50%);
+    left: 75%;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .score {
@@ -227,8 +227,8 @@ main {
 
 @media only screen and (max-width: 450px) {
   .dice {
-   left: 75%;
-   top: 45rem;
+    left: 75%;
+    top: 45rem;
   }
 
   .current {
@@ -236,15 +236,11 @@ main {
   }
 
   .btn--new {
-    
     left: 15%;
-  
   }
 
   .btn--roll {
-    
     left: 40%;
-    
   }
 
   .btn--hold {
@@ -260,5 +256,5 @@ main {
     width: 6rem;
     height: 6rem;
     top: 50%;
-   }
+  }
 }
